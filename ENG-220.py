@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Page config
-st.set_page_config(page_title="Crime Statistics Dashboard", layout="wide", page_icon="📊")
+st.set_page_config(page_title="Aggravated Assault Statistics Dashboard", layout="wide", page_icon="📊")
 
 # Title
 st.title("📊 Crime Statistics Dashboard")
@@ -277,3 +277,4 @@ with st.sidebar:
             file_name="crime_statistics.csv",
             mime="text/csv"
         )
+
