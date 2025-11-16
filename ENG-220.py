@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 st.set_page_config(page_title="Aggravated Assault Statistics Dashboard", layout="wide", page_icon="📊")
 
 # Title
-st.title("📊 Crime Statistics Dashboard")
+st.title("📊 Aggravated Assault Statistics Dashboard")
 st.markdown("FBI Crime Data Analysis and Visualization")
 
 # Parse the CSV file manually to handle the multi-section format
@@ -277,4 +277,5 @@ with st.sidebar:
             file_name="crime_statistics.csv",
             mime="text/csv"
         )
+
 
