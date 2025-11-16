@@ -12,7 +12,7 @@ st.markdown("FBI Crime Data Analysis and Visualization")
 
 # Parse the CSV file manually to handle the multi-section format
 def parse_crime_data():
-    with open('crime_statistics_complete_final.csv', 'r') as f:
+    with open('Aggravated_Assault_Statistics.csv', 'r') as f:
         lines = f.readlines()
     
     # Time series data
@@ -277,6 +277,7 @@ with st.sidebar:
             file_name="crime_statistics.csv",
             mime="text/csv"
         )
+
 
 
 
