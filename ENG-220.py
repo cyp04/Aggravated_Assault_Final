@@ -1,5 +1,4 @@
-
-📊 Streamlit App Code
+#Streamlit App Code
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -91,3 +90,4 @@ with tab5:
 st.sidebar.header("Download Data")
 csv = df.to_csv(index=False, header=False).encode("utf-8")
 st.sidebar.download_button("Download Full Dataset as CSV", data=csv, file_name="crime_data_full.csv", mime="text/csv")
+
