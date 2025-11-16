@@ -2,3 +2,8 @@ streamlit
 pandas
 matplotlib
 openpyxl
+# Install required packages first
+pip install streamlit pandas plotly
+
+# Save the code as app.py, then run:
+streamlit run app.py
